@@ -1,0 +1,17 @@
+%%-*- mode: erlang -*-
+{application, coffeescript,
+ [
+  {description, "Coffeescript Compiler"},
+  {vsn, "1"},
+  {modules, [coffeescript]},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  crypto,
+                  mochiweb,
+                  webmachine,
+		  erlang_js
+                 ]},
+  {env, []}
+ ]}.
